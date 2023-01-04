@@ -46,7 +46,7 @@ An 'invisible' switch is included in each cast device which can be used by exter
 ## Device Controls
 ### Manager Device
 The Info field should show a list of known device names and their IP addresses
-The Refresh button can be used if you suspect the connction to the cast-web-api has been lost.  This button will force a reconnection attempt and callback re-initialization with cast-web-api.  Monitor the Status field for results.
+The Refresh button can be used if you suspect the connection to the cast-web-api has been lost.  This button will force a reconnection attempt and callback re-initialization with cast-web-api.  Monitor the Status field for results.
 ### Cast Device
 #### Dashboard
 The dashboard control can be used to pause and play the current media
