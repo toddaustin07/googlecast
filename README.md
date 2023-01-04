@@ -76,7 +76,7 @@ This involves four steps:
 Before getting started with the commands below, go ahead and download the google-tts.js file in this repository to your Downloads directory.
 
 ### Linux commands
-Note: this assume npm is installed and current, and you have the cast-web-api-cli installed
+Note: this assumes npm is installed and current, and you already have the cast-web-api-cli installed
 ```
 cd ~/.npm-global/lib/node_modules/cast-web-api-cli/node_modules/cast-web-api
 npm i google-tts-api@latest
