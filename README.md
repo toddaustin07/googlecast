@@ -75,6 +75,8 @@ This involves four steps:
 
 Before getting started with the commands below, go ahead and download the google-tts.js file in this repository to your Downloads directory.
 
+Also, be sure you have Version 2023-01-04T01:23:15.134697978 or later of the Google Cast v0.1 Edge driver.
+
 ### Linux commands
 Note: this assumes npm is installed and current, and you already have the cast-web-api-cli installed
 ```
