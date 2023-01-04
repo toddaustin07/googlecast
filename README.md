@@ -67,6 +67,8 @@ The Status section will show information if anything is currently playing.  *Med
 
 The bottom field in the Status section, *Status*, shows whether or not the device is connected.  Note that this can occasionally show a disconnected state, but within a minute or so, it should automatically be reconnected.  Keep an eye on this field if you are having trouble controlling the device.  Don't attempt to issue any media controls unless the device is in a 'Connected' state.
 
+##### Refreshing
+A 'swipe-down' gesture can be peformed on a cast device Controls screen to update all fields from cast-web-api.
 
 ## Speech Synthesis with Google TTS
 The latest version of the cast-web-api no longer works with Google TTS, but it can be modified to get it to work with this Edge driver.
