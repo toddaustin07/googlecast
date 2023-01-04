@@ -4,6 +4,7 @@ This is an Edge port of the [cast-web SmartThings](https://vervallsweg.github.io
 
 This Edge driver will provide the capability to play media on Google Cast-compatible devices including SmartThings notifications and Google TTS messages.
 
+Note that this driver should be considered BETA level, as limited testing has been done and there are some known issues.
 
 ## Driver Installation
 The driver is currently available from my test channel here:  https://bestow-regional.api.smartthings.com/invite/Q1jP7BqnNNlL
