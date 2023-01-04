@@ -61,7 +61,7 @@ The *Play a favorite* button will present a list of Presets you have configured 
 
 *Volume/Mute* works as expected, except this cannot control the volume of Chromecast devices.
 
-The Status section will show information if anything is currently playing.  *Media Player Status* may how 'no status' if nothing is playing or information has not yet been received from the cast-web-api (it may eventually update if media is playing).
+The Status section will show information if anything is currently playing.  *Media Player Status* may show 'no status' if nothing is playing or information has not yet been received from the cast-web-api (it may eventually update if media is playing).
 
 The bottom field in the Status section, *Status*, shows whether or not the device is connected.  Note that this can occasionally show a disconnected state, but within a minute or so, it should automatically be reconnected.  Keep an eye on this field if you are having trouble controlling the device.  Don't attempt to issue any media controls unless the device is in a 'Connected' state.
 
