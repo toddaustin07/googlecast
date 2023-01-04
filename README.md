@@ -34,7 +34,7 @@ Cast speakers can play SmartThings notifications initiated through automation ro
 For the THEN part of your automation routine, select 'Notify someone' and then 'Play message on speaker'.  For audio devices, select the desired cast speaker device.  Note that SmartThings is doing the TTS conversion, so voice/language preferences are not available.
 
 #### Speech Synthesis
-An alternative way to play announcements is to use the Speech Synthesis capability of the cast device.  Here, you can configure the design language through the cast device settings options (Google TTS Language).
+An alternative way to play announcements is to use the Speech Synthesis capability of the cast device.  Here, you can configure the desired language through the cast device Settings options (Google TTS Language).
 
 When creating an automation routine, for the THEN part of the routine, select the desired cast device, unselect 'Turn on', tap Speech Synthesis, turn on the toggle switch, and enter the text you want.
 
