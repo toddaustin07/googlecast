@@ -49,7 +49,7 @@ The Info field should show a list of known device names and their IP addresses
 The Refresh button can be used if you suspect the connection to the cast-web-api has been lost.  This button will force a reconnection attempt and callback re-initialization with cast-web-api.  Monitor the Status field for results.
 ### Cast Device
 #### Dashboard
-The dashboard control can be used to pause and play the current media
+The dashboard control can be used to pause and play the current media for that device.
 #### Controls screen
 The *Media playback* GUI controls may not work correctly - particularly on iOS devices.  This is a known SmartThings problem and has been reported.  Because of this, there is a second button just below it labeled "Alternate media controls" that can be used for manual selection of play/pause/stop.
 
