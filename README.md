@@ -86,7 +86,8 @@ Also, be sure you have Version 2023-01-04T01:23:15.134697978 or later of the Goo
 ### Linux commands
 Note: this assumes npm is installed and current, and you already have the cast-web-api-cli installed.
 
-The first cd command will be dependant on your particular directory structure.  You may also be required to specify 'sudo' in front of the npm and cp commands if you do not have write permission for the directory.
+The first cd command will be dependant on your particular directory structure.
+
 ```
 cd ~/.npm-global/lib/node_modules/cast-web-api-cli/node_modules/cast-web-api
 npm i google-tts-api@latest
@@ -98,6 +99,12 @@ cp ~/Downloads/google-tts.js google-tts.js
 cast-web-api-cli stop
 cast-web-api-cli start
 ```
+
+For some, the first cd command above may need to be something like this:
+```
+cd /usr/lib/node_modules/cast-web-api-cli/node_modules/cast-web-api
+```
+* in which case you will probably need to specify 'sudo' in front of the npm and cp commands
 
 ## Limitations
 * Google Assistant functionality is not currently working due to a change in the supported Google oath flows.
