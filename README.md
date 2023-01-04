@@ -84,7 +84,9 @@ Before getting started with the commands below, go ahead and download the google
 Also, be sure you have Version 2023-01-04T01:23:15.134697978 or later of the Google Cast v0.1 Edge driver.
 
 ### Linux commands
-Note: this assumes npm is installed and current, and you already have the cast-web-api-cli installed
+Note: this assumes npm is installed and current, and you already have the cast-web-api-cli installed.
+
+The first cd command will be dependant on your particular directory structure.  You may also be required to specify 'sudo' in front of the npm and cp commands if you do not have write permission for the directory.
 ```
 cd ~/.npm-global/lib/node_modules/cast-web-api-cli/node_modules/cast-web-api
 npm i google-tts-api@latest
