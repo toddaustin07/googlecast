@@ -7,6 +7,8 @@ This Edge driver will provide the capability to play media on Google Cast-compat
 Note that this driver should be considered BETA level, as limited testing has been done and there are some known issues.
 
 ## Driver Installation
+Before installing this Edge driver, be sure you have the cast-web-api application up and running on a LAN computer.  Follow the instructions [here](https://vervallsweg.github.io/cast-web/installation-cast-web-api/).
+
 The driver is currently available from my test channel here:  https://bestow-regional.api.smartthings.com/invite/Q1jP7BqnNNlL
 
 Enroll your hub and select 'Google Cast v0.1' from the list of available drivers to install to your hub
