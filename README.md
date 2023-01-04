@@ -51,6 +51,7 @@ The Refresh button can be used if you suspect the connection to the cast-web-api
 #### Dashboard
 The dashboard control can be used to pause and play the current media for that device.
 #### Controls screen
+##### Controls component
 The *Media playback* GUI controls may not work correctly - particularly on iOS devices.  This is a known SmartThings problem and has been reported.  Because of this, there is a second button just below it labeled "Alternate media controls" that can be used for manual selection of play/pause/stop.
 
 Note that the *rewind* and *fastforward* buttons do nothing, as this is not available for cast devices.
@@ -61,6 +62,7 @@ The *Play a favorite* button will present a list of Presets you have configured 
 
 *Volume/Mute* works as expected, except this cannot control the volume of Chromecast devices.
 
+##### Status component
 The Status section will show information if anything is currently playing.  *Media Player Status* may show 'no status' if nothing is playing or information has not yet been received from the cast-web-api (it may eventually update if media is playing).
 
 The bottom field in the Status section, *Status*, shows whether or not the device is connected.  Note that this can occasionally show a disconnected state, but within a minute or so, it should automatically be reconnected.  Keep an eye on this field if you are having trouble controlling the device.  Don't attempt to issue any media controls unless the device is in a 'Connected' state.
