@@ -1,6 +1,6 @@
 # Google Cast Edge Driver
 
-This is an Edge port of the [cast-web-api SmartThings](https://vervallsweg.github.io/cast-web/) package and requires the [cast-web-api application](https://github.com/vervallsweg/cast-web-api) to be installed and running on a LAN computer.
+This is an Edge port of the [cast-web SmartThings](https://vervallsweg.github.io/cast-web/) package and requires the [cast-web-api application](https://github.com/vervallsweg/cast-web-api) to be installed and running on a LAN computer.
 
 This Edge driver will provide the capability to play media on Google Cast-compatible devices including SmartThings notifications and Google TTS messages.
 
