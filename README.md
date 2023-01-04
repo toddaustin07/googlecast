@@ -38,7 +38,7 @@ An alternative way to play announcements is to use the Speech Synthesis capabili
 
 When creating an automation routine, for the THEN part of the routine, select the desired cast device, unselect 'Turn on', tap Speech Synthesis, turn on the toggle switch, and enter the text you want.
 
-Now when your routine is triggered, the text will be sent to Google for converstion to audio, and played on your device.
+Now when your routine is triggered, the text will first be sent to Google for conversion to audio, and then played on your device.
 
 #### Other
 An 'invisible' switch is included in each cast device which can be used by external SmartThings integrations for simple media control.  Configure the desired actions in device Settings
