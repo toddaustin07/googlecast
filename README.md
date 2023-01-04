@@ -36,7 +36,7 @@ For the THEN part of your automation routine, select 'Notify someone' and then '
 #### Speech Synthesis
 An alternative way to play announcements is to use the Speech Synthesis capability of the cast device.  Here, you can configure the desired language through the cast device Settings options (Google TTS Language).
 
-When creating an automation routine, for the THEN part of the routine, select the desired cast device, unselect 'Turn on', tap Speech Synthesis, turn on the toggle switch, and enter the text you want.
+When creating an automation routine, for the THEN part of the routine, select the desired cast device, **unselect 'Turn on'**, tap Speech Synthesis, turn on the toggle switch, and enter the text you want.
 
 Now when your routine is triggered, the text will first be sent to Google for conversion to audio, and then played on your device.
 
