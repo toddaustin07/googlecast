@@ -53,6 +53,8 @@ The dashboard control can be used to pause and play the current media for that d
 #### Controls screen
 The *Media playback* GUI controls may not work correctly - particularly on iOS devices.  This is a known SmartThings problem and has been reported.  Because of this, there is a second button just below it labeled "Alternate media controls" that can be used for manual selection of play/pause/stop.
 
+Note that the *rewind* and *fastforward* buttons do nothing, as this is not available for cast devices.
+
 The *Media track* control is useful primarily for going to the next or previous Preset.  However, alternative actions can be configured in device Settings.
 
 The *Play a favorite* button will present a list of Presets you have configured (in the Manager device).  Select one to play the media configured for that Preset.
