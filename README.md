@@ -61,9 +61,11 @@ Volume/Mute works as expected, except this cannot control the volume of Chromeca
 
 The status section will show information if anything is currently playing.  Status may how 'no status' if nothing is playing or information has not yet been received from the cast-web-api (it may eventually update) if media is playing.
 
+Within the status section, the bottom field is 'Status', showing whether or not the device is connected.  Note that this can occasionally go into a disconnected state, but when a minute or so, it should automatically be reconnected.  Keep an eye on this field if you are having trouble controlling the device.  Don't attempt to set any media controls unless the device is in a 'Connected' state.
+
 
 ## Speech Synthesis with Google TTS
-The latest version of the cast-web-api no longer works with Google TTS and so need to be modified to have this work with this Edge driver.
+The latest version of the cast-web-api no longer works with Google TTS, but it can be modified to get it to work with this Edge driver.
 
 This involves four steps:
 1. Update the installed google-tts-api node module to the latest version
