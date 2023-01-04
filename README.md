@@ -51,17 +51,17 @@ The Refresh button can be used if you suspect the connction to the cast-web-api 
 #### Dashboard
 The dashboard control can be used to pause and play the current media
 #### Controls screen
-The Media playback GUI controls may not work correctly - particularly on iOS devices.  This is a known SmartThings problem and has been reported.  Because of this, there is a second button just below it labeled "Alternate media controls" that can be used for manual selection of play/pause/stop.
+The *Media playback* GUI controls may not work correctly - particularly on iOS devices.  This is a known SmartThings problem and has been reported.  Because of this, there is a second button just below it labeled "Alternate media controls" that can be used for manual selection of play/pause/stop.
 
-The Media track control is useful primarily for going to the next or previous Preset.  However, preferred actions can be configured in device Settings.
+The *Media track* control is useful primarily for going to the next or previous Preset.  However, alternative actions can be configured in device Settings.
 
-Play a favorite will present a list of Presets you have configured (in the Manager device).  Selecting one to initiate play for that Preset.
+The *Play a favorite* button will present a list of Presets you have configured (in the Manager device).  Select one to play the media configured for that Preset.
 
-Volume/Mute works as expected, except this cannot control the volume of Chromecast devices.
+*Volume/Mute* works as expected, except this cannot control the volume of Chromecast devices.
 
-The status section will show information if anything is currently playing.  Status may how 'no status' if nothing is playing or information has not yet been received from the cast-web-api (it may eventually update) if media is playing.
+The Status section will show information if anything is currently playing.  *Media Player Status* may how 'no status' if nothing is playing or information has not yet been received from the cast-web-api (it may eventually update if media is playing).
 
-Within the status section, the bottom field, 'Status', shows whether or not the device is connected.  Note that this can occasionally show a disconnected state, but within a minute or so, it should automatically be reconnected.  Keep an eye on this field if you are having trouble controlling the device.  Don't attempt to issue any media controls unless the device is in a 'Connected' state.
+The bottom field in the Status section, *Status*, shows whether or not the device is connected.  Note that this can occasionally show a disconnected state, but within a minute or so, it should automatically be reconnected.  Keep an eye on this field if you are having trouble controlling the device.  Don't attempt to issue any media controls unless the device is in a 'Connected' state.
 
 
 ## Speech Synthesis with Google TTS
