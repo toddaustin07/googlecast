@@ -13,7 +13,7 @@ The driver is currently available from my test channel here:  https://bestow-reg
 
 Enroll your hub and select 'Google Cast v0.1' from the list of available drivers to install to your hub
 
-Once the driver is available on your hub, use the SmartThings mobile app to perform an *Add device / Scan for nearby devices*.  A new device will then be created in your *No room assigned* room named 'Cast Manager'.  Go to device settings for this new device and configure the address of your cast-web-api application: e.g. 192.168.1.104:3000.  Return to the device Controls screen and observe the Status field, which will display the connection status with the cast-web-api app.
+Once the driver is available on your hub, use the SmartThings mobile app to perform an *Add device / Scan for nearby devices*.  A new device will then be created in your *No room assigned* room named 'Google Cast Manager'.  Go to device settings for this new device and configure the address of your cast-web-api application: e.g. 192.168.1.104:3000.  Return to the device Controls screen and observe the Status field, which will display the connection status with the cast-web-api app.
 
 You can now do another *Add device / Scan for nearby devices* and this time devices will be created for each device reported by cast-web-api.
 
