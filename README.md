@@ -98,7 +98,7 @@ cast-web-api-cli start
 ## Limitations
 * Google Assistant functionality is not currently working due to a change in the supported Google oath flows.
 * Control of Chromecast devices is very limited due to the above
-* When playing notifications, any currently playing **Preset** will be resumed afterwards.  If the device is playing other media that had been initiated directly on the device or through the Google app, then that media cannot be resumed
+* When playing notifications, any currently playing **Preset** will be resumed afterwards.  However, if the device is playing other media that had been initiated directly on the device or through the Google app, then that media *cannot* be resumed
 * Disconnects are not uncommon after interrupting a group play with notifications; monitor the device's Status field at the bottom of its Controls screen.
 * Media info such as current app or titles may be blank at times, but should eventually refresh
 
