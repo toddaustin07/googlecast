@@ -20,6 +20,8 @@ You can now do another *Add device / Scan for nearby devices* and this time devi
 ### Device Setting Options
 #### Cast Manager
 Up to 6 Presets can be configured.  Provide the title, URL, media-type, and stream-type for each.  URL must be in the form 'http://......'.  These presets can include live streaming URLs as well as single-play sound files.
+
+Title and subtitle are provide in one field, separated by a '-' character.  So for example 'Local Radio - KLBJ'.  If no subtitle is desired then just provide the title.
 #### Cast Device
 Each cast device created can be configured with the following options:
 * Switch ON, Switch OFF, Next Track, Previous Track actions
@@ -37,6 +39,27 @@ An alternative way to play announcements is to use the Speech Synthesis capabili
 When creating an automation routine, for the THEN part of the routine, select the desired cast device, unselect 'Turn on', tap Speech Synthesis, turn on the toggle switch, and enter the text you want.
 
 Now when your routine is triggered, the text will be sent to Google for converstion to audio, and played on your device.
+
+#### Other
+An 'invisible' switch is included in each cast device which can be used by external SmartThings integrations for simple media control.  Configure the desired actions in device Settings
+
+## Device Controls
+### Manager Device
+The Info field should show a list of known device names and their IP addresses
+The Refresh button can be used if you suspect the connction to the cast-web-api has been lost.  This button will force a reconnection attempt and callback re-initialization with cast-web-api.  Monitor the Status field for results.
+### Cast Device
+#### Dashboard
+The dashboard control can be used to pause and play the current media
+#### Controls screen
+The Media playback GUI controls may not work correctly - particularly on iOS devices.  This is a known SmartThings problem and has been reported.  Because of this, there is a second button just below it labeled "Alternate media controls" that can be used for manual selection of play/pause/stop.
+
+The Media track control is useful primarily for going to the next or previous Preset.  However, preferred actions can be configured in device Settings.
+
+Play a favorite will present a list of Presets you have configured (in the Manager device).  Selecting one to initiate play for that Preset.
+
+Volume/Mute works as expected, except this cannot control the volume of Chromecast devices.
+
+The status section will show information if anything is currently playing.  Status may how 'no status' if nothing is playing or information has not yet been received from the cast-web-api (it may eventually update) if media is playing.
 
 
 ## Speech Synthesis with Google TTS
