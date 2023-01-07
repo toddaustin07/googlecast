@@ -40,6 +40,9 @@ When creating an automation routine, for the THEN part of the routine, select th
 
 Now when your routine is triggered, the text will first be sent to Google for conversion to audio, and then played on your device.
 
+#### Presets
+When using a preset in a routine, enter the the preset in this format: preset# (e.g. preset1, preset2, etc.). Ensure the word 'preset' is entered in all lower case.
+
 #### Other
 An 'invisible' switch is included in each cast device which can be used by external SmartThings integrations for simple media control.  Configure the desired actions in device Settings
 
